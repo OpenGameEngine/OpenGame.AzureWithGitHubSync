@@ -1,0 +1,20 @@
+name: Run ADO to GitHub Sync with PowerShell
+
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: "0 0 * * *"
+jobs:
+  build:
+    runs-on: windows-2019
+    steps:
+      - name: Check out repo        
+        uses: actions/checkout@v2
+      - run: |
+           $ListObject = GC -Path "D:\a\OpenGame.AzureWithGitHubSync\OpenGame.AzureWithGitHubSync\repository-list.json" | ConvertFrom-Json
+           foreach ($object in $ListObject.RepoList){
+            write-host "--------------- Current syncing for repo $($object.AzureRepoName)----------------------------------"
+            Set-Location D:\a\OpenGame.AzureWithGitHubSync\OpenGame.AzureWithGitHubSync
+             .\azure-github-sync.ps1 -GitHubDestinationPAT ${{ secrets.GITHUBDESTINATIONPAT }} -ADOSourcePAT ${{ secrets.ADOSOURCEPAT }} -AzureRepoName $($object.AzureRepoName)  -ADOCloneURL $($object.ADOCloneURL)  -GitHubCloneURL  $($object.GitHubCloneURL)
+            write-host "---------------------------------------------------------------------------------------------------"
+           }
