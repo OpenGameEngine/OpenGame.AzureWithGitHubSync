@@ -34,6 +34,11 @@
         "AzureRepoName": "OpenGame.Docs",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Docs",
         "GitHubCloneURL": "github.com/OpenGameEngine/OpenGame.Docs.git"
+    },
+    {
+        "AzureRepoName": "OpenGame.Service.AutoUpdate.Api",
+        "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Service.AutoUpdate.Api",
+        "GitHubCloneURL": "github.com/OpenGameEngine/OpenGame.Service.AutoUpdate.Api.git"
     }
     ]
 }
