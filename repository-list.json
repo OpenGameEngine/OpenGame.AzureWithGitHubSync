@@ -3,37 +3,37 @@
     {
         "AzureRepoName":"OpenGame.Engine",
         "ADOCloneURL":"dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Engine",
-        "GitHubCloneURL":"github.com/OpenGame-Chat/OpenGame.Engine.git"
+        "GitHubCloneURL":"github.com/OpenGame/OpenGame.Engine.git"
     },
     { 
         "AzureRepoName":"OpenGame.Logo",
         "ADOCloneURL":"dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Logo",
-        "GitHubCloneURL":"github.com/OpenGame-Chat/OpenGame.WebApp.git"
+        "GitHubCloneURL":"github.com/OpenGame/OpenGame.WebApp.git"
     },
     {
         "AzureRepoName": "OpenGame.Editor",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Editor",
-        "GitHubCloneURL": "github.com/OpenGame-Chat/OpenGame.Editor.git"
+        "GitHubCloneURL": "github.com/OpenGame/OpenGame.Editor.git"
     },
     {
         "AzureRepoName": "OpenGame.Launcher",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Launcher",
-        "GitHubCloneURL": "github.com/OpenGame-Chat/OpenGame.Launcher.git"
+        "GitHubCloneURL": "github.com/OpenGame/OpenGame.Launcher.git"
     },
     {
         "AzureRepoName": "OpenGame.Store",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Store",
-        "GitHubCloneURL": "github.com/OpenGame-Chat/OpenGame.Store.git"
+        "GitHubCloneURL": "github.com/OpenGame/OpenGame.Store.git"
     },
     {
         "AzureRepoName": "OpenGame.Samples",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Samples",
-        "GitHubCloneURL": "github.com/OpenGame-Chat/OpenGame.Samples.git"
+        "GitHubCloneURL": "github.com/OpenGame/OpenGame.Samples.git"
     },
     {
         "AzureRepoName": "OpenGame.Docs",
         "ADOCloneURL": "dev.azure.com/o2bionics-products/OpenGame/_git/OpenGame.Docs",
-        "GitHubCloneURL": "github.com/OpenGame-Chat/OpenGame.Docs.git"
+        "GitHubCloneURL": "github.com/OpenGame/OpenGame.Docs.git"
     }
     ]
 }
